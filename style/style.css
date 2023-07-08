@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.nav_section{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 170px;
+}
+.menu_item > ul > li{
+    display: inline;
+    margin-right: 10px;
+    justify-content: end;
+}
+nav li > a{
+    list-style-type: none;
+    text-decoration: none;
+}
